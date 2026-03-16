@@ -23,13 +23,6 @@ A Webmin module for editing, testing and applying nftables firewall rules direct
 - systemd (`/usr/bin/systemctl`)
 - Perl (no extra modules required)
 
-## Installation
-
-### Download the module
-```bash
-wget https://github.com/YOURUSER/webmin-nftables-editor/releases/download/v1.0/nftables-editor.wbm.gz
-```
-
 ### Install via Webmin UI
 
 1. Go to **Webmin → Webmin Configuration → Webmin Modules**
