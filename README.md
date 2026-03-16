@@ -2,6 +2,10 @@
 
 A Webmin module for editing, testing and applying nftables firewall rules directly from the Webmin interface.
 
+## Screenshot
+
+![nftables Editor](images/screenshot.png)
+
 ## Features
 
 - Syntax highlighted editor for `/etc/nftables.conf`
