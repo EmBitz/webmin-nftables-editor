@@ -39,18 +39,6 @@ wget https://github.com/YOURUSER/webmin-nftables-editor/releases/download/v1.0/n
 perl /usr/share/webmin/install-module.pl nftables-editor.wbm.gz
 ```
 
-### Download CodeMirror (required)
-```bash
-wget -O /usr/share/webmin/nftables-editor/codemirror.min.js \
-  https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js
-
-wget -O /usr/share/webmin/nftables-editor/codemirror.min.css \
-  https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css
-
-wget -O /usr/share/webmin/nftables-editor/simple.js \
-  https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/mode/simple.js
-```
-
 ## Usage
 
 The module appears under **Networking** in the Webmin menu.
